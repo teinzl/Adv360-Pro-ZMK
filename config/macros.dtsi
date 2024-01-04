@@ -2,37 +2,37 @@ macro_ctrls: macro_ctrls{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrls";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp S>;
+bindings = <&kt LCTRL>, <&kp S>, <&kt LCTRL>;
 };
 macro_ctrla: macro_ctrla{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrla";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp A>;
+bindings = <&kt LCTRL>, <&kp A>, <&kt LCTRL>;
 };
 macro_ctrlv: macro_ctrlv{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlv";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp V>;
+bindings = <&kt LCTRL>, <&kp V>, <&kt LCTRL>;
 };
 macro_ctrlc: macro_ctrlc{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlc";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
+bindings = <&kt LCTRL>, <&kp C>, <&kt LCTRL>;
 };
 macro_ctrlx: macro_ctrlx{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlx";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp X>;
+bindings = <&kt LCTRL>, <&kp X>, <&kt LCTRL>;
 };
 macro_ctrlz: macro_ctrlz{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlz";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp Z>;
+bindings = <&kt LCTRL>, <&kp Z>, <&kt LCTRL>;
 };
 macro_windows_tab: macro_windows_tab{
 compatible = "zmk,behavior-macro";
