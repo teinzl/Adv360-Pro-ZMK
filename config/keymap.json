@@ -7,8 +7,8 @@
     "keypad",
     "fn",
     "mod",
-    "tab",
-    "macros"
+    "arrows",
+    "symbols"
   ],
   "layers": [
     [
@@ -42,11 +42,11 @@
        "&trans",         "&trans",             "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                       "&trans",   "&trans",   "&trans",    "&trans",    "&trans", "&trans",
        "&trans",         "&trans",             "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",               "&trans",   "&trans",    "&trans",    "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",         "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",      "&kp GRAVE",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&macro_dquotes",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans",         "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans",          "&trans",       "&trans",            "&trans",        "&kp GRAVE",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans",          "&trans",       "&trans",            "&trans",   "&macro_dquotes",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&kp EXCLAMATION", "&kp QUESTION", "&kp DOUBLE_QUOTES", "&kp SINGLE_QUOTE",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans",          "&trans",  "&macro_dots",            "&trans",           "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans",          "&trans",       "&trans",            "&trans",           "&trans"
     ]
   ]
 }

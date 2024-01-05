@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_tab {
+        layer_arrows {
             bindings = <
  &trans          &trans              &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans    &trans    &trans     &trans     &trans  &trans
  &trans  &kp LEFT_SHIFT  &macro_windows_tab  &trans  &trans  &trans            &trans                                                  &trans   &kp END    &trans    &kp UP     &trans  &kp PG_UP  &trans
@@ -88,13 +88,13 @@
             >;
         };
 
-        layer_macros {
+        layer_symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans          &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans       &kp GRAVE
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_dquotes
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans          &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans          &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans           &trans        &trans             &trans         &kp GRAVE
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans           &trans        &trans             &trans    &macro_dquotes
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &kp EXCLAMATION  &kp QUESTION  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans           &trans   &macro_dots             &trans            &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans           &trans        &trans             &trans            &trans
             >;
         };
 

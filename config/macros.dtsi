@@ -1,3 +1,9 @@
+macro_dots: macro_dots{
+compatible = "zmk,behavior-macro";
+label = "macro_dots";
+#binding-cells = <0>;
+bindings = <&kp DOT>, <&kp DOT>, <&kp DOT>;
+};
 macro_ctrls: macro_ctrls{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrls";
