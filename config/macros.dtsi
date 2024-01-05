@@ -1,3 +1,15 @@
+macro_shift_o: macro_shift_o{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_o";
+#binding-cells = <0>;
+bindings = <&kt LSHFT>, <&kp O>, <&kt LSHFT>;
+};
+macro_shift_p: macro_shift_p{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_p";
+#binding-cells = <0>;
+bindings = <&kt LSHFT>, <&kp P>, <&kt LSHFT>;
+};
 macro_alttab: macro_alttab{
 compatible = "zmk,behavior-macro";
 label = "macro_alttab";
