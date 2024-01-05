@@ -80,11 +80,11 @@
 
         layer_arrows {
             bindings = <
- &trans       &kp GRAVE         &trans              &trans         &trans  &trans            &trans                                                  &trans    &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans  &trans
- &trans  &kp LEFT_SHIFT  &macro_alttab  &macro_windows_tab         &trans  &trans            &trans                                                  &trans   &kp END           &trans          &kp UP           &trans  &kp PG_UP  &trans
- &trans          &trans         &trans              &trans         &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp HOME         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN  &trans
- &trans          &trans         &trans              &trans         &trans  &trans                            &trans                  &trans                    &trans           &trans          &trans           &trans     &trans  &trans
- &trans          &trans         &trans  &macro_windows_tab  &macro_alttab                    &trans  &trans  &trans                  &trans  &trans  &trans                     &trans          &trans           &trans     &trans  &trans
+ &trans       &kp GRAVE     &trans              &trans         &trans  &trans            &trans                                                  &trans    &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans  &trans
+ &trans  &kp LEFT_SHIFT  &kp LCTRL  &macro_windows_tab  &macro_alttab  &trans            &trans                                                  &trans   &kp END           &trans          &kp UP           &trans  &kp PG_UP  &trans
+ &trans          &trans     &trans              &trans         &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp HOME         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN  &trans
+ &trans          &trans     &trans              &trans         &trans  &trans                            &trans                  &trans                    &trans           &trans          &trans           &trans     &trans  &trans
+ &trans          &trans     &trans  &macro_windows_tab  &macro_alttab                    &trans  &trans  &trans                  &trans  &trans  &trans                     &trans          &trans           &trans     &trans  &trans
             >;
         };
 
