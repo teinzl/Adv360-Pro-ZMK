@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10        &kp F11   &kp F12
-    &trans        &trans        &trans        &trans        &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans         &trans  &kp BSLH
-    &trans  &macro_ctrla  &macro_ctrls        &trans        &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans  &kp SEMICOLON   &kp SQT
- &kp LSHFT  &macro_ctrlz  &macro_ctrlx  &macro_ctrlc  &macro_ctrlv  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans      &kp SLASH    &trans
-    &trans        &trans        &trans        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans         &trans    &trans
+    &kp F1         &kp F2              &kp F3        &kp F4        &kp F5  &kp F6            &tog 1                                                   &mo 3    &kp F7           &kp F8          &kp F9          &kp F10    &kp F11   &kp F12
+    &trans         &trans              &trans        &trans        &trans  &trans             &none                                                   &none  &kp HOME           &trans          &kp UP           &trans  &kp PG_UP  &kp BSLH
+    &trans   &macro_ctrla        &macro_ctrls        &trans        &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none   &kp END         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN   &kp SQT
+ &kp LSHFT   &macro_ctrlz        &macro_ctrlx  &macro_ctrlc  &macro_ctrlv  &trans                            &trans                  &trans                    &trans           &trans          &trans           &trans  &kp SLASH    &trans
+    &trans  &macro_alttab  &macro_windows_tab        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans    &trans
             >;
         };
 
