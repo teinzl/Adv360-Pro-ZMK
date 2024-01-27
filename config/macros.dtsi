@@ -1,14 +1,74 @@
+macro_shift_5: macro_shift_5{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_5";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp N5>;
+};
+macro_shift_4: macro_shift_4{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_4";
+#binding-cells = <0>;
+bindings = <&kp LSHFT>, <&kp N4>;
+};
+macro_shift3: macro_shift3{
+compatible = "zmk,behavior-macro";
+label = "macro_shift3";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp N3>;
+};
+macro_shift_2: macro_shift_2{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_2";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp N2>;
+};
+macro_shift1: macro_shift1{
+compatible = "zmk,behavior-macro";
+label = "macro_shift1";
+#binding-cells = <0>;
+bindings = <&kp LSHFT>, <&kp N1>;
+};
+macro_shift_t: macro_shift_t{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_t";
+#binding-cells = <0>;
+bindings = <&kp RSHFT>, <&kp T>;
+};
+macro_shift_r: macro_shift_r{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_r";
+#binding-cells = <0>;
+bindings = <&kp RSHIFT>, <&kp R>;
+};
+macro_sfhit_e: macro_sfhit_e{
+compatible = "zmk,behavior-macro";
+label = "macro_sfhit_e";
+#binding-cells = <0>;
+bindings = <&kp RSHIFT>, <&kp E>;
+};
+macro_shift_w: macro_shift_w{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_w";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp W>;
+};
+macro_shift_q: macro_shift_q{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_q";
+#binding-cells = <0>;
+bindings = <&kp RSHFT>, <&kp Q>;
+};
 macro_ctrl_cap: macro_ctrl_cap{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_cap";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp CAPSLOCK>;
+bindings = <&kt LCTRL>, <&kp CAPSLOCK>, <&kt LCTRL>;
 };
 macro_lang_change: macro_lang_change{
 compatible = "zmk,behavior-macro";
 label = "macro_lang_change";
 #binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>;
+bindings = <&kt LALT>, <&kp LEFT_SHIFT>, <&kt LALT>;
 };
 macro_shift_o: macro_shift_o{
 compatible = "zmk,behavior-macro";
