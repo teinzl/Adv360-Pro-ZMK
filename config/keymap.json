@@ -45,8 +45,8 @@
           "&trans", "&trans", "&trans",    "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",         "&trans", "&macro_lang_change", "&macro_ctrl_cap",         "&trans", "&kp GRAVE",
           "&trans", "&trans", "&trans", "&kp ENTER", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&kp LEFT_BRACE",    "&kp RIGHT_BRACE",  "&macro_shift_o", "&macro_shift_p",  "&kp BSLH",
        "&kp LSHFT", "&trans", "&trans",    "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans",        "&kp SQT",    "&kp EXCLAMATION",    "&kp QUESTION",      "&kp COLON",   "&kp DQT",
-          "&trans", "&trans", "&trans",    "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans",      "&kp GRAVE",          "&kp TILDE",     "&macro_dots",   "&kp QUESTION",   "&kp SQT",
-          "&trans", "&trans", "&trans",    "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                    "&none",      "&kp RIGHT_ALT",        "&kp LBKT",       "&kp RBKT",    "&trans"
+          "&trans", "&trans", "&trans",    "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans",  "&kp RIGHT_ALT",          "&kp TILDE",     "&macro_dots",   "&kp QUESTION",   "&kp SQT",
+          "&trans", "&trans", "&trans",    "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                   "&trans",             "&trans",        "&kp LBKT",       "&kp RBKT",    "&trans"
     ]
   ]
 }
