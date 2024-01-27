@@ -1,3 +1,15 @@
+macro_ctrl_cap: macro_ctrl_cap{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_cap";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp CAPSLOCK>;
+};
+macro_lang_change: macro_lang_change{
+compatible = "zmk,behavior-macro";
+label = "macro_lang_change";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>;
+};
 macro_shift_o: macro_shift_o{
 compatible = "zmk,behavior-macro";
 label = "macro_shift_o";
