@@ -1,3 +1,9 @@
+macro_alt_cap: macro_alt_cap{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_cap";
+#binding-cells = <0>;
+bindings = <&kt LEFT_ALT>, <&kp CAPS>, <&kt LEFT_ALT>;
+};
 macro_shift_5: macro_shift_5{
 compatible = "zmk,behavior-macro";
 label = "macro_shift_5";
