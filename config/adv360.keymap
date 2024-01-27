@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-  &kp EQUAL   &kp N1        &kp N2      &kp N3      &kp N4  &kp N5               &mo 1                                                                &mo 3  &kp N6  &kp N7     &kp N8   &kp N9        &kp N0      &kp MINUS
-      &mo 4    &kp Q         &kp W       &kp E       &kp R   &kp T               &none                                                                &none   &kp Y   &kp U      &kp I    &kp O         &kp P       &kp BSLH
- &kp LSHIFT    &kp A         &kp S       &kp D       &kp F   &kp G               &none  &kp LCTRL  &kp LALT                  &kp LGUI   &kp RALT      &none   &kp H   &kp J      &kp K    &kp L    &kp RSHIFT        &kp DQT
-      &mo 5    &kp Z         &kp X       &kp C       &kp V   &kp B                                  &kp TAB                  &kp CAPS                         &kp N   &kp M  &kp COMMA  &kp DOT  &kp QUESTION  &kp SEMICOLON
-      &mo 2  &kp ESC  &kp LEFT_WIN  &kp LSHIFT  &kp LSHIFT                    &kp BSPC    &kp DEL     &mo 5                     &none  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp SQT     &kp SLASH          &mo 2
+  &kp EQUAL   &kp N1        &kp N2  &kp N3      &kp N4  &kp N5               &mo 1                                                                &mo 3  &kp N6  &kp N7     &kp N8   &kp N9        &kp N0      &kp MINUS
+      &mo 4    &kp Q         &kp W   &kp E       &kp R   &kp T               &none                                                                &none   &kp Y   &kp U      &kp I    &kp O         &kp P       &kp BSLH
+ &kp LSHIFT    &kp A         &kp S   &kp D       &kp F   &kp G               &none  &kp LCTRL  &kp LALT                  &kp LGUI   &kp RALT      &none   &kp H   &kp J      &kp K    &kp L    &kp RSHIFT        &kp DQT
+      &mo 5    &kp Z         &kp X   &kp C       &kp V   &kp B                                  &kp TAB                  &kp CAPS                         &kp N   &kp M  &kp COMMA  &kp DOT  &kp QUESTION  &kp SEMICOLON
+      &mo 2  &kp ESC  &kp LEFT_WIN   &mo 5  &kp LSHIFT                    &kp BSPC    &kp DEL     &mo 5                     &none  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp SQT     &kp SLASH          &mo 2
             >;
         };
 
