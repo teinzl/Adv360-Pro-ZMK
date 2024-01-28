@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-    &kp F1         &kp F2              &kp F3        &kp F4        &kp F5  &kp F6            &tog 1                                                   &mo 3    &kp F7           &kp F8          &kp F9          &kp F10    &kp F11   &kp F12
-    &trans         &trans              &trans        &trans        &trans  &trans             &none                                                   &none  &kp HOME           &trans          &kp UP           &trans  &kp PG_UP  &kp BSLH
-    &trans   &macro_ctrla        &macro_ctrls        &trans        &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none   &kp END         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN   &kp SQT
- &kp LSHFT   &macro_ctrlz        &macro_ctrlx  &macro_ctrlc  &macro_ctrlv  &trans                            &trans                  &trans                    &trans           &trans          &trans           &trans  &kp SLASH    &trans
-    &trans  &macro_alttab  &macro_windows_tab        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans    &trans
+    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6            &tog 1                                                   &mo 3    &kp F7           &kp F8          &kp F9          &kp F10    &kp F11   &kp F12
+    &trans        &trans        &trans        &trans        &trans  &trans             &none                                                   &none  &kp HOME           &trans          &kp UP           &trans  &kp PG_UP  &kp BSLH
+    &trans  &macro_ctrla  &macro_ctrls        &trans        &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none   &kp END         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN   &kp SQT
+ &kp LSHFT  &macro_ctrlz  &macro_ctrlx  &macro_ctrlc  &macro_ctrlv  &trans                            &trans                  &trans                    &trans           &trans          &trans           &trans  &kp SLASH    &trans
+    &trans     &kp SPACE     &kp ENTER        &trans        &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans    &trans
             >;
         };
 
@@ -83,18 +83,18 @@
  &trans       &kp GRAVE     &trans              &trans         &trans  &trans                   &trans                                                              &trans    &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans  &trans
  &trans  &kp LEFT_SHIFT  &kp LCTRL  &macro_windows_tab  &macro_alttab  &trans                   &trans                                                              &trans   &kp END           &trans          &kp UP           &trans  &kp PG_UP  &trans
  &trans          &trans     &trans              &trans         &trans  &trans                   &trans              &trans  &trans                  &trans  &trans  &trans  &kp HOME         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN  &trans
- &trans          &trans     &trans           &kp ENTER         &trans  &trans                                               &trans                  &trans                    &trans           &trans          &trans           &trans     &trans  &trans
- &trans          &trans     &trans              &trans         &trans                    &macro_alttab  &macro_windows_tab  &trans                  &trans  &trans  &trans                     &trans          &trans           &trans     &trans  &trans
+ &trans          &trans     &trans            &kp LALT         &trans  &trans                                               &trans                  &trans                    &trans           &trans          &trans           &trans     &trans  &trans
+ &trans          &trans     &trans           &kp LCTRL         &trans                    &macro_alttab  &macro_windows_tab  &trans                  &trans  &trans  &trans                     &trans          &trans           &trans     &trans  &trans
             >;
         };
 
         layer_symbols_left {
             bindings = <
-    &trans  &trans  &trans     &trans         &trans  &trans                   &trans                                                              &trans     &trans          &trans  &macro_lang_change  &macro_ctrl_cap          &trans  &kp GRAVE
-    &trans  &trans  &trans  &kp ENTER         &trans  &trans                   &trans                                                              &trans     &trans  &kp LEFT_BRACE     &kp RIGHT_BRACE   &macro_shift_o  &macro_shift_p   &kp BSLH
- &kp LSHFT  &trans  &trans     &trans         &trans  &trans                   &trans              &trans  &trans                  &trans  &trans  &trans     &trans    &kp QUESTION            &kp EXCL          &kp DQT         &kp SQT    &kp DQT
-    &trans  &trans  &trans     &trans  &kp RIGHT_ALT  &trans                                               &trans                  &trans                  &kp TILDE       &kp MINUS           &kp SLASH      &macro_dots    &kp QUESTION  &kp COLON
-    &trans  &trans  &trans     &trans         &trans                    &macro_alttab  &macro_windows_tab  &trans                  &trans  &trans  &trans                     &trans              &trans         &kp LBKT        &kp RBKT     &trans
+    &trans  &trans  &trans     &trans         &trans  &trans                   &trans                                                              &trans        &trans          &trans  &macro_lang_change  &macro_ctrl_cap          &trans  &kp GRAVE
+    &trans  &trans  &trans  &kp ENTER         &trans  &trans                   &trans                                                              &trans        &trans  &kp LEFT_BRACE     &kp RIGHT_BRACE   &macro_shift_o  &macro_shift_p   &kp BSLH
+ &kp LSHFT  &trans  &trans     &trans         &trans  &trans                   &trans              &trans  &trans                  &trans  &trans  &trans  &kp QUESTION        &kp EXCL             &kp DQT          &kp SQT         &kp SQT    &kp DQT
+    &trans  &trans  &trans     &trans  &kp RIGHT_ALT  &trans                                               &trans                  &trans                     &kp TILDE       &kp MINUS           &kp SLASH      &macro_dots    &kp QUESTION  &kp COLON
+    &trans  &trans  &trans     &trans         &trans                    &macro_alttab  &macro_windows_tab  &trans                  &trans  &trans  &trans                        &trans              &trans         &kp LBKT        &kp RBKT     &trans
             >;
         };
 
