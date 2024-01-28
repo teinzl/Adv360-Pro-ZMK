@@ -44,7 +44,7 @@
           &mo 4    &kp Q   &kp W   &kp E       &kp R   &kp T               &none                                                                        &none   &kp Y            &kp U      &kp I    &kp O         &kp P       &kp BSLH
           &mo 5    &kp A   &kp S   &kp D       &kp F   &kp G               &none  &kp LCTRL      &kp LALT                  &kp LGUI  &kp RIGHT_ALT      &none   &kp H            &kp J      &kp K    &kp L    &kp RSHIFT        &kp DQT
  &kp LEFT_SHIFT    &kp Z   &kp X   &kp C       &kp V   &kp B                                      &kp TAB                  &kp CAPS                             &kp N            &kp M  &kp COMMA  &kp DOT  &kp QUESTION  &kp SEMICOLON
-          &mo 2  &kp ESC   &mo 4   &mo 5  &kp LSHIFT                    &kp BSPC    &kp DEL  &kp LEFT_WIN                     &none      &kp ENTER  &kp SPACE          &kp RIGHT_SHIFT      &mo 6    &mo 7      &kp RALT          &mo 2
+          &mo 2  &kp ESC   &mo 5   &mo 4  &kp LSHIFT                    &kp BSPC    &kp DEL  &kp LEFT_WIN                     &none      &kp ENTER  &kp SPACE          &kp RIGHT_SHIFT      &mo 7    &mo 6      &kp RALT          &mo 2
             >;
         };
 
@@ -84,7 +84,7 @@
  &trans  &kp LEFT_SHIFT  &kp LCTRL  &macro_windows_tab  &macro_alttab  &trans                   &trans                                                                 &trans   &kp END           &trans          &kp UP           &trans  &kp PG_UP  &trans
  &trans          &trans     &trans              &trans         &trans  &trans                   &trans              &trans     &trans                  &trans  &trans  &trans  &kp HOME         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN  &trans
  &trans          &trans     &trans            &kp LALT         &trans  &trans                                                  &trans                  &trans                    &trans           &trans          &trans           &trans     &trans  &trans
- &trans          &trans     &trans           &kp LCTRL         &trans                    &macro_alttab  &macro_windows_tab  &kp ENTER                  &trans  &trans  &trans                     &trans          &trans           &trans     &trans  &trans
+ &trans          &trans  &kp LCTRL              &trans         &trans                    &macro_alttab  &macro_windows_tab  &kp ENTER                  &trans  &trans  &trans                     &trans          &trans           &trans     &trans  &trans
             >;
         };
 
