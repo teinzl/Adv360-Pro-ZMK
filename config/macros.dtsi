@@ -1,3 +1,33 @@
+macro_tt: macro_tt{
+compatible = "zmk,behavior-macro";
+label = "macro_tt";
+#binding-cells = <0>;
+bindings = <&kp T>, <&kp T>;
+};
+macro_rr: macro_rr{
+compatible = "zmk,behavior-macro";
+label = "macro_rr";
+#binding-cells = <0>;
+bindings = <&kp R>, <&kp R>;
+};
+macro_ee: macro_ee{
+compatible = "zmk,behavior-macro";
+label = "macro_ee";
+#binding-cells = <0>;
+bindings = <&kp E>, <&kp E>;
+};
+macro_ww: macro_ww{
+compatible = "zmk,behavior-macro";
+label = "macro_ww";
+#binding-cells = <0>;
+bindings = <&kp W>, <&kp W>;
+};
+macro_qq: macro_qq{
+compatible = "zmk,behavior-macro";
+label = "macro_qq";
+#binding-cells = <0>;
+bindings = <&kp Q>, <&kp Q>;
+};
 macro_koreancombo_sg: macro_koreancombo_sg{
 compatible = "zmk,behavior-macro";
 label = "macro_koreancombo_sg";
