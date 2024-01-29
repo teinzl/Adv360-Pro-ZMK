@@ -2,31 +2,31 @@ macro_tt: macro_tt{
 compatible = "zmk,behavior-macro";
 label = "macro_tt";
 #binding-cells = <0>;
-bindings = <&kp T>, <&kp T>;
+bindings = <&kt LSHFT>, <&kp T>, <&kt LSHFT>;
 };
 macro_rr: macro_rr{
 compatible = "zmk,behavior-macro";
 label = "macro_rr";
 #binding-cells = <0>;
-bindings = <&kp R>, <&kp R>;
+bindings = <&kt LSHFT>, <&kp R>, <&kt LSHFT>;
 };
 macro_ee: macro_ee{
 compatible = "zmk,behavior-macro";
 label = "macro_ee";
 #binding-cells = <0>;
-bindings = <&kp E>, <&kp E>;
+bindings = <&kt LSHFT>, <&kp E>, <&kt LSHFT>;
 };
 macro_ww: macro_ww{
 compatible = "zmk,behavior-macro";
 label = "macro_ww";
 #binding-cells = <0>;
-bindings = <&kp W>, <&kp W>;
+bindings = <&kt LSHFT>, <&kp W>, <&kt LSHFT>;
 };
 macro_qq: macro_qq{
 compatible = "zmk,behavior-macro";
 label = "macro_qq";
 #binding-cells = <0>;
-bindings = <&kp Q>, <&kp Q>;
+bindings = <&kt LSHFT>, <&kp Q>, <&kt RSHFT>;
 };
 macro_koreancombo_sg: macro_koreancombo_sg{
 compatible = "zmk,behavior-macro";
