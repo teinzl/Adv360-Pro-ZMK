@@ -80,11 +80,11 @@
 
         layer_arrows {
             bindings = <
- &trans  &kp GRAVE  &trans     &trans     &trans  &trans                   &trans                                                                 &trans        &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans  &trans
- &trans     &trans  &trans     &trans     &trans  &trans                   &trans                                                                 &trans       &kp END    &kp BACKSPACE          &kp UP          &kp DEL  &kp PG_UP  &trans
- &trans     &trans  &trans     &trans     &trans  &trans                   &trans              &trans     &trans                  &trans  &trans  &trans      &kp HOME         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN  &trans
- &trans     &trans  &trans   &kp LALT  &kp ENTER  &trans                                                  &trans                  &trans                  &macro_ctrlz     &macro_ctrlx    &macro_ctrlv     &macro_ctrlc     &trans  &trans
- &trans     &trans  &trans  &kp LCTRL  &kp RSHFT                    &macro_alttab  &macro_windows_tab  &kp ENTER                  &trans  &trans  &trans                         &trans          &trans           &trans     &trans  &trans
+ &trans  &kp GRAVE  &trans     &trans     &trans  &trans                   &trans                                                        &trans        &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK     &trans  &trans
+ &trans     &trans  &trans     &trans     &trans  &trans                   &trans                                                        &trans       &kp END    &kp BACKSPACE          &kp UP          &kp DEL  &kp PG_UP  &trans
+ &trans     &trans  &trans     &trans     &trans  &trans                   &trans     &trans     &trans                  &trans  &trans  &trans      &kp HOME         &kp LEFT        &kp DOWN        &kp RIGHT  &kp PG_DN  &trans
+ &trans     &trans  &trans   &kp LALT  &kp ENTER  &trans                                         &trans                  &trans                  &macro_ctrlz     &macro_ctrlx    &macro_ctrlv     &macro_ctrlc     &trans  &trans
+ &trans     &trans  &trans  &kp LCTRL  &kp RSHFT                    &macro_alttab  &kp ENTER  &kp ENTER                  &trans  &trans  &trans                         &trans          &trans           &trans     &trans  &trans
             >;
         };
 
