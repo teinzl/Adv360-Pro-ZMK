@@ -26,7 +26,7 @@ macro_qq: macro_qq{
 compatible = "zmk,behavior-macro";
 label = "macro_qq";
 #binding-cells = <0>;
-bindings = <&kt LSHFT>, <&kp Q>, <&kt RSHFT>;
+bindings = <&kt LSHFT>, <&kp Q>, <&kt LSHFT>;
 };
 macro_koreancombo_sg: macro_koreancombo_sg{
 compatible = "zmk,behavior-macro";
