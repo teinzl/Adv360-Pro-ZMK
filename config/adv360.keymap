@@ -90,11 +90,11 @@
 
         layer_symbols_left {
             bindings = <
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans                &trans                 &trans          &trans          &trans  &kp GRAVE
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans      &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &macro_shift_o  &macro_shift_p   &kp BSLH
- &kp LSHFT  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp SEMICOLON          &kp QUESTION               &kp EXCL         &kp SQT         &kp DQT    &kp DQT
-    &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                      &kp SLASH             &kp MINUS                &kp DQT     &macro_dots    &kp QUESTION  &kp COLON
-    &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                               &trans                 &trans          &trans          &trans     &trans
+    &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                  &trans         &trans                &trans                 &trans          &trans          &trans  &kp GRAVE
+    &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                  &trans      &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &macro_shift_o  &macro_shift_p   &kp BSLH
+ &kp LSHFT  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp SEMICOLON          &kp QUESTION               &kp EXCL         &kp SQT         &kp DQT    &kp DQT
+    &trans  &trans  &trans  &trans  &kp RALT  &trans                            &trans                  &trans                      &kp SLASH             &kp MINUS                &kp DQT     &macro_dots    &kp QUESTION  &kp COLON
+    &trans  &trans  &trans  &trans    &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                               &trans                 &trans          &trans          &trans     &trans
             >;
         };
 
