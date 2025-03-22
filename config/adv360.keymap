@@ -97,11 +97,11 @@
 
         layer_mouse {
             bindings = <
-&trans  &trans          &trans          &trans           &trans  &trans  &to 0                                       &trans    &trans    &trans          &mkp MB4        &mkp MB5        &trans          &trans
-&trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans  &trans                                      &trans    &mkp MB3  &mkp MB2        &mmv MOVE_UP    &trans          &msc SCRL_UP    &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans  &to 0   &trans  &trans      &trans  &trans  &trans    &mkp MB1  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &msc SCRL_DOWN  &trans
-&trans  &trans          &trans          &trans           &trans  &trans                  &trans      &trans                    &trans    &trans          &trans          &trans          &trans          &trans
-&trans  &trans          &trans          &trans           &trans          &trans  &trans  &trans      &trans  &trans  &mkp MB1            &trans          &trans          &trans          &trans          &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &to 0                                       &trans    &trans    &trans          &mkp MB4        &mkp MB5         &trans          &trans
+&trans  &trans  &none           &mmv MOVE_UP    &trans           &trans  &trans                                      &trans    &mkp MB3  &mkp MB2        &mmv MOVE_UP    &trans           &msc SCRL_UP    &trans
+&trans  &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &to 0   &trans  &trans      &trans  &trans  &trans    &mkp MB1  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans
+&trans  &trans  &trans          &trans          &trans           &trans                  &trans      &trans                    &trans    &trans          &trans          &trans           &trans          &trans
+&trans  &trans  &trans          &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &mkp MB1            &trans          &trans          &trans           &trans          &trans
             >;
         };
 
@@ -122,16 +122,6 @@
 &kp ESC     &kp A      &kp S     &kp D     &kp F      &kp G   &to 7     &kp LCTRL  &kp LALT      &kp LEFT_WIN   &kp LALT   &to 0      &kp H   &kp J   &kp K      &kp L             &kp SEMICOLON      &kp SQT
 &kp LSHIFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PAGE_UP                          &kp N   &kp M   &kp COMMA  &kp DOT           &kp SLASH          &kp RSHFT
 &mo 2       &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PAGE_DOWN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mo 2
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
