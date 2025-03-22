@@ -31,7 +31,7 @@
 &mo 4           &kp Q    &kp W      &kp E    &kp R   &kp T   &to 7                                                        &none      &kp Y   &kp U   &kp I      &kp O      &kp P         &kp BSLH
 &mo 5           &kp A    &lt 4 S    &lt 5 D  &kp F   &kp G   &none     &kp LCTRL  &kp LALT          &kp LGUI   &kp RALT   &to 9      &kp H   &kp J   &lt 6 K    &kp L      &kp RSHFT     &kp DQT
 &kp LEFT_SHIFT  &kp Z    &kp X      &kp C    &kp V   &kp B                        &kp TAB           &kp RCTRL                        &kp N   &kp M   &kp COMMA  &kp DOT    &kp QUESTION  &kp SEMICOLON
-&mo 2           &kp ESC  &mo 4      &mo 8    &to 5           &kp BSPC  &kp DEL    &kp LEFT_WIN      &kp CAPS   &kp ENTER  &kp SPACE          &to 6   &mo 8      &mo 7      &kp RALT      &mo 2
+&mo 2           &kp ESC  &mo 4      &to 8    &to 5           &kp BSPC  &kp DEL    &kp LEFT_WIN      &kp CAPS   &kp ENTER  &kp SPACE          &to 6   &mo 8      &mo 7      &kp RALT      &mo 2
             >;
         };
 
@@ -67,21 +67,21 @@
 
         layer_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans  &trans     &trans     &trans  &to 0                                                  &trans  &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans     &trans
-&trans  &trans     &trans  &trans     &kp BSPC   &trans  &trans                                                 &trans  &kp END   &kp BACKSPACE    &kp UP          &kp DEL          &kp PG_UP  &trans
-&trans  &kp LALT   &trans  &kp LCTRL  &kp LSHFT  &trans  &trans       &trans     &trans         &trans  &trans  &trans  &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT        &kp PG_DN  &trans
-&trans  &kp LC(Z)  &trans  &kp LC(X)  &kp LC(C)  &trans                          &trans         &trans                  &trans    &trans           &trans          &trans           &trans     &trans
-&trans  &trans     &trans  &kp LCTRL  &kp RSHFT          &kp LA(TAB)  &kp ENTER  &kp ENTER      &trans  &trans  &trans            &trans           &trans          &trans           &trans     &trans
+&trans  &kp GRAVE  &trans  &trans     &trans     &trans     &to 0                                                  &trans  &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans     &trans
+&trans  &trans     &trans  &trans     &kp BSPC   &trans     &trans                                                 &trans  &kp END   &kp BACKSPACE    &kp UP          &kp DEL          &kp PG_UP  &trans
+&trans  &kp LALT   &trans  &kp LCTRL  &kp LSHFT  &trans     &trans       &trans     &trans         &trans  &trans  &trans  &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT        &kp PG_DN  &trans
+&trans  &kp LC(Z)  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)                          &trans         &trans                  &trans    &trans           &trans          &trans           &trans     &trans
+&trans  &trans     &trans  &kp LCTRL  &kp RSHFT             &kp LA(TAB)  &kp ENTER  &kp ENTER      &trans  &trans  &trans            &trans           &trans          &trans           &trans     &trans
             >;
         };
 
         layer_symbols_left {
             bindings = <
-&trans     &trans  &trans  &trans  &trans    &trans  &to 0                                       &trans  &trans         &trans                &trans                 &trans     &trans     &kp GRAVE
-&trans     &trans  &trans  &trans  &trans    &trans  &trans                                      &trans  &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(O)  &kp LS(P)  &kp BSLH
-&kp LSHFT  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp SEMICOLON  &kp QUESTION          &kp EXCL               &kp SQT    &kp DQT    &kp DQT
-&trans     &trans  &trans  &trans  &kp RALT  &trans                  &trans      &trans                  &kp EXCL       &kp MINUS             &kp DQT                &trans     &kp SLASH  &kp COLON
-&trans     &trans  &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans  &trans                 &trans                &trans                 &trans     &trans     &trans
+&trans  &trans            &trans            &trans             &trans    &trans  &to 0                                       &trans  &trans         &trans                &trans                 &trans     &trans     &kp GRAVE
+&trans  &kp LA(CAPSLOCK)  &kp LC(CAPSLOCK)  &kp LANG_HIRAGANA  &trans    &trans  &trans                                      &trans  &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(O)  &kp LS(P)  &kp BSLH
+&trans  &kp LANG1         &kp LANG_HANJA    &trans             &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp SEMICOLON  &kp QUESTION          &kp EXCL               &kp SQT    &kp DQT    &kp DQT
+&trans  &kp LANGUAGE_5    &trans            &trans             &kp RALT  &trans                  &trans      &trans                  &kp EXCL       &kp MINUS             &kp DQT                &trans     &kp SLASH  &kp COLON
+&trans  &trans            &trans            &trans             &to 0             &trans  &trans  &trans      &trans  &trans  &trans                 &trans                &trans                 &trans     &trans     &trans
             >;
         };
 
