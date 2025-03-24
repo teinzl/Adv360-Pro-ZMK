@@ -76,11 +76,11 @@
 
         layer_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans  &trans     &trans     &trans     &to 0                                                  &trans  &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans     &trans
-&trans  &trans     &trans  &trans     &kp BSPC   &trans     &trans                                                 &trans  &kp END   &kp BACKSPACE    &kp UP          &kp DEL          &kp PG_UP  &trans
-&trans  &kp LALT   &trans  &kp LCTRL  &kp LSHFT  &trans     &trans       &trans     &trans         &trans  &trans  &trans  &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT        &kp PG_DN  &trans
-&trans  &kp LC(Z)  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)                          &trans         &trans                  &trans    &trans           &trans          &trans           &trans     &trans
-&trans  &trans     &trans  &kp LCTRL  &kp RSHFT             &kp LA(TAB)  &kp ENTER  &kp ENTER      &trans  &trans  &trans            &trans           &trans          &trans           &trans     &trans
+&trans  &kp GRAVE    &trans  &trans     &trans     &trans     &to 0                                                  &trans  &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans     &trans
+&trans  &kp LA(TAB)  &trans  &trans     &kp BSPC   &trans     &trans                                                 &trans  &kp END   &kp BACKSPACE    &kp UP          &kp DEL          &kp PG_UP  &trans
+&trans  &kp LG(TAB)  &trans  &kp LCTRL  &kp LSHFT  &trans     &trans       &trans     &trans         &trans  &trans  &trans  &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT        &kp PG_DN  &trans
+&trans  &kp LC(Z)    &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)                          &trans         &trans                  &trans    &trans           &trans          &trans           &trans     &trans
+&trans  &trans       &trans  &kp LCTRL  &kp RSHFT             &kp LA(TAB)  &kp ENTER  &kp ENTER      &trans  &trans  &trans            &trans           &trans          &trans           &trans     &trans
             >;
         };
 
@@ -88,7 +88,7 @@
             bindings = <
 &trans  &trans            &trans            &trans             &trans    &trans  &to 0                                       &trans  &trans         &trans                &trans                 &kp UNDERSCORE  &kp PLUS   &kp GRAVE
 &trans  &kp LA(CAPSLOCK)  &kp LC(CAPSLOCK)  &kp LANG_HIRAGANA  &trans    &trans  &trans                                      &trans  &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(O)       &kp LS(P)  &kp BSLH
-&trans  &kp LANG_HANGEUL  &kp LANG_HANJA    &kp RIGHT_ALT      &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp SEMICOLON  &kp QUESTION          &kp EXCL               &kp SQT         &kp DQT    &kp DQT
+&to 0   &kp LANG_HANGEUL  &kp LANG_HANJA    &kp RIGHT_ALT      &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp SEMICOLON  &kp QUESTION          &kp EXCL               &kp SQT         &kp DQT    &kp DQT
 &trans  &kp LANGUAGE_5    &trans            &trans             &kp RALT  &trans                  &trans      &trans                  &kp EXCL       &kp MINUS             &kp DQT                &dots           &kp SLASH  &kp COLON
 &trans  &trans            &trans            &trans             &to 0             &trans  &trans  &trans      &trans  &trans  &trans                 &trans                &trans                 &trans          &trans     &trans
             >;
@@ -136,11 +136,11 @@
 
         browse_ {
             bindings = <
-&kp ESCAPE   &kp LC(TAB)    &kp LC(LS(TAB))  &trans  &trans  &kp F6     &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(TAB)  &none          &trans           &trans  &trans  &kp LC(T)  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans         &trans           &trans  &trans  &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &kp LC(LS(T))  &kp LC(W)        &trans  &trans  &trans                     &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans         &trans           &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE   &kp LC(TAB)    &kp LC(LS(TAB))  &trans     &trans           &kp F6     &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LA(TAB)  &none          &trans           &kp PG_UP  &trans           &kp LC(T)  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &kp LEFT_ARROW   &kp PG_DN  &kp RIGHT_ARROW  &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &kp LC(LS(T))  &kp LC(W)        &kp SPACE  &trans           &trans                     &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans         &trans           &trans     &trans                      &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
