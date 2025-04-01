@@ -40,7 +40,7 @@
 &to 2  &kp Q   &kp W      &kp E    &kp R   &kp T   &to 18                                                          &none      &kp Y   &kp U   &kp I      &kp O      &kp P         &kp BSLH
 &to 3  &kp A   &lt 2 S    &lt 3 D  &kp F   &kp G   &none     &kp LCTRL  &kp LALT          &kp LGUI      &kp RALT   &to 15     &kp H   &kp J   &kp K      &kp L      &kp RSHFT     &kp DQT
 &to 4  &kp Z   &kp X      &kp C    &kp V   &kp B                        &kp TAB           &kp CAPSLOCK                        &kp N   &kp M   &kp COMMA  &kp DOT    &kp QUESTION  &kp SEMICOLON
-&to 5  &to 6   &to 7      &to 8    &to 9           &kp BSPC  &kp DEL    &kp LEFT_WIN      &kp ESCAPE    &kp ENTER  &kp SPACE          &to 10  &to 11     &to 12     &to 13        &to 14
+&to 5  &to 6   &to 9      &to 8    &to 9           &kp BSPC  &kp DEL    &kp LEFT_WIN      &kp ESCAPE    &kp ENTER  &kp SPACE          &to 10  &to 11     &to 12     &to 13        &to 14
             >;
         };
 
