@@ -136,11 +136,11 @@
 
         langugekey {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &to 0   &trans          &trans            &trans            &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans            &trans            &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LANG_HANJA  &kp LANGUAGE_4    &kp LANG_HANGEUL  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &kp LS(CAPSLOCK)  &kp LA(CAPSLOCK)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &to 0             &trans            &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &to 0   &trans          &trans            &trans            &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans            &trans            &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LANG_HANJA  &kp LANGUAGE_4    &kp LANG_HANGEUL  &kp LEFT_ALT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &kp LS(CAPSLOCK)  &kp LA(CAPSLOCK)  &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &to 0             &trans            &trans        &trans  &trans
             >;
         };
 
