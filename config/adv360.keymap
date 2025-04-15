@@ -94,13 +94,13 @@
             >;
         };
 
-        layer_6 {
+        shortcuts {
             bindings = <
-&trans  &kp LANG7       &kp LANG8  &kp LANG9  &trans  &trans  &to 0                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans     &trans     &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans     &trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LANGUAGE_5  &kp LANG6  &trans     &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &to 0           &trans     &trans     &to 0           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LA(LG(LC(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &trans  &trans  &to 0                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                        &trans                        &trans                        &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                        &trans                        &trans                        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LC(LA(LG(Z))))         &kp LS(LA(LC(LG(X))))         &trans                        &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &to 0                         &trans                        &trans                        &to 0           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
