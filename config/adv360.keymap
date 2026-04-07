@@ -59,7 +59,7 @@
 &trans  &kp GRAVE  &trans    &trans     &trans     &trans  &to 0                                                     &to 0   &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans     &trans
 &to 0   &kp LALT   &kp LWIN  &kp TAB    &kp BSPC   &trans  &to 0                                                     &to 0   &kp END   &kp BACKSPACE    &kp UP          &kp DEL          &kp PG_UP  &trans
 &trans  &kp LALT   &trans    &kp LCTRL  &kp LSHFT  &trans  &kp LA(LC(KP_N2))  &trans     &trans      &trans  &trans  &to 0   &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT        &kp PG_DN  &trans
-&trans  &none      &none     &kp RALT   &none      &none                                 &trans      &trans                  &trans    &trans           &trans          &trans           &trans     &trans
+&trans  &none      &none     &none      &kp RALT   &none                                 &trans      &trans                  &trans    &trans           &trans          &trans           &trans     &trans
 &trans  &trans     &trans    &none      &none              &none              &kp ENTER  &trans      &trans  &trans  &trans            &trans           &trans          &trans           &trans     &trans
             >;
         };
