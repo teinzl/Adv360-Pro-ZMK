@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&to 1  &kp N1  &kp LS(T)  &kp N3   &kp N4   &kp N5  &to 18                                                                   &mo 15     &kp N6  &kp N7  &kp LS(O)  &kp LS(P)  &kp N0        &kp MINUS
-&to 2  &kp Q   &kp W      &kp E    &kp R    &kp T   &to 19                                                                   &to 16     &kp Y   &kp U   &kp I      &kp O      &kp P         &kp BSLH
-&to 3  &kp A   &lt 2 S    &lt 3 D  &lt 4 F  &kp G   &kp LA(LC(KP_N0))  &kp LCTRL  &kp LALT          &kp LGUI      &kp RALT   &to 17     &kp H   &kp J   &kp K      &kp L      &kp RSHFT     &kp DQT
-&to 4  &kp Z   &kp X      &kp C    &kp V    &kp B                                 &kp TAB           &kp CAPSLOCK                        &kp N   &kp M   &kp COMMA  &kp DOT    &kp QUESTION  &kp SEMICOLON
-&to 5  &to 6   &to 7      &to 8    &to 9            &kp BSPC           &kp DEL    &kp LEFT_WIN      &kp ESCAPE    &kp ENTER  &kp SPACE          &to 10  &to 11     &to 12     &to 13        &to 14
+&to 1  &kp N1  &kp LS(T)  &kp N3   &kp N4   &kp N5  &to 18                                                                   &mo 15     &kp N6  &kp N7    &kp LS(O)  &kp LS(P)  &kp N0        &kp MINUS
+&to 2  &kp Q   &kp W      &kp E    &kp R    &kp T   &to 19                                                                   &to 16     &kp Y   &kp U     &kp I      &kp O      &kp P         &kp BSLH
+&to 3  &kp A   &lt 2 S    &lt 3 D  &lt 4 F  &kp G   &kp LA(LC(KP_N0))  &kp LCTRL  &kp LALT          &kp LGUI      &kp RALT   &to 17     &kp H   &lt 11 J  &lt 12 K   &kp L      &kp RSHFT     &kp DQT
+&to 4  &kp Z   &kp X      &kp C    &kp V    &kp B                                 &kp TAB           &kp CAPSLOCK                        &kp N   &kp M     &kp COMMA  &kp DOT    &kp QUESTION  &kp SEMICOLON
+&to 5  &to 6   &to 7      &to 8    &to 9            &kp BSPC           &kp DEL    &kp LEFT_WIN      &kp ESCAPE    &kp ENTER  &kp SPACE          &to 10    &to 11     &to 12     &to 13        &to 14
             >;
         };
 
@@ -56,11 +56,11 @@
 
         layer2_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                   &to 0   &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK   &trans     &kp UNDERSCORE
-&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                   &to 0   &kp END   &kp BACKSPACE    &kp UP          &kp DEL           &kp PG_UP  &kp PIPE
-&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans      &trans  &trans  &to 0   &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
-&trans  &none      &none            &none      &kp RALT   &none                                    &trans      &trans                  &trans    &trans           &kp LESS_THAN   &kp GREATER_THAN  &kp SLASH  &kp COLON
-&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &trans      &trans  &trans  &trans            &trans           &trans          &trans            &trans     &trans
+&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                   &to 0   &trans    &kp N7         &kp N8         &kp N9            &trans     &kp UNDERSCORE
+&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                   &to 0   &kp END   &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
+&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans      &trans  &trans  &to 0   &kp HOME  &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
+&trans  &none      &none            &none      &kp RALT   &none                                    &trans      &trans                  &trans    &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
+&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &trans      &trans  &trans  &trans            &trans         &trans         &trans            &trans     &trans
             >;
         };
 
@@ -94,13 +94,13 @@
             >;
         };
 
-        layer7shortcuts {
+        layer6_shortcuts {
             bindings = <
-&trans  &kp LS(LA(LG(LC(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &trans  &trans  &to 0                                                  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                        &trans                        &trans                        &trans  &trans  &to 0                                                  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                        &trans                        &trans                        &trans  &trans  &kp LA(LC(KP_N6))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LC(LA(LG(Z))))         &kp LS(LA(LC(LG(X))))         &trans                        &trans  &trans                             &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &to 0                         &to 7                         &to 8                         &to 9           &trans             &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LA(LG(LC(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &trans  &trans  &to 0                                                  &to 0   &trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans
+&trans  &trans                        &trans                        &trans                        &trans  &trans  &to 0                                                  &to 0   &trans  &trans           &trans          &trans           &trans  &trans
+&trans  &trans                        &trans                        &trans                        &trans  &trans  &kp LA(LC(KP_N6))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans           &trans          &trans           &trans  &trans
+&trans  &kp LS(LC(LA(LG(Z))))         &kp LS(LA(LC(LG(X))))         &trans                        &trans  &trans                             &trans      &trans                  &trans  &trans           &trans          &trans           &trans  &trans
+&trans  &to 0                         &to 7                         &to 8                         &to 9           &trans             &trans  &trans      &trans  &trans  &trans          &trans           &trans          &trans           &trans  &trans
             >;
         };
 
@@ -124,7 +124,7 @@
             >;
         };
 
-        layer_left_for_game {
+        layer9_left_for_game {
             bindings = <
 &kp GRAVE     &kp N6  &kp N7  &kp N8     &kp N9      &kp N0         &to 0                                                                    &mo 15     &kp N6  &kp N7  &kp N8     &kp N9            &kp N0             &kp MINUS
 &kp TAB       &kp Y   &kp U   &kp I      &kp O       &kp P          &to 0                                                                    &to 0      &kp Y   &kp U   &kp I      &kp O             &kp P              &kp BACKSLASH
@@ -134,7 +134,7 @@
             >;
         };
 
-        arrow+languagekey {
+        layer_10_arrow+languagekey {
             bindings = <
 &trans    &trans     &kp HOME        &kp END         &kp INS           &kp DEL            &to 0                                                         &to 0   &trans              &trans            &trans            &trans        &trans  &trans
 &trans    &kp LSHFT  &trans          &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &to 0                                                         &to 0   &trans              &trans            &trans            &trans        &trans  &trans
@@ -146,21 +146,21 @@
 
         layer_11 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(KP_N1)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                 &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &to 0   &trans  &trans  &trans
+&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp LS(Q)         &kp LS(W)         &kp LS(E)         &kp LS(R)         &kp LS(T)   &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp LS(A)         &kp LS(S)         &kp LS(D)         &kp LS(F)         &kp LS(G)   &kp LS(LA(LC(KP_N1)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp LS(Z)         &kp LS(X)         &kp LS(C)         &kp LS(V)         &kp LS(B)                                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans            &trans            &trans            &trans                        &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &to 0   &trans  &trans  &trans
             >;
         };
 
         volume {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans  &trans             &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans  &kp K_VOLUME_UP    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &kp K_VOLUME_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                 &trans      &trans                  &trans  &trans  &trans             &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &trans             &to 0   &trans  &trans
+&trans  &trans  &kp NUMBER_2  &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans  &trans                                 &trans      &trans                  &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &trans          &trans                 &trans  &trans      &trans  &trans  &trans          &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &to 0   &trans  &trans
             >;
         };
 
