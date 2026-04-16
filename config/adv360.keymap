@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&to 1  &kp N1  &kp LS(T)  &kp N3   &kp N4  &kp N5  &to 18                                                                   &mo 15     &kp N6  &kp N7  &kp LS(O)  &kp LS(P)  &kp N0        &kp MINUS
-&to 2  &kp Q   &kp W      &kp E    &kp R   &kp T   &to 19                                                                   &to 16     &kp Y   &kp U   &kp I      &kp O      &kp P         &kp BSLH
-&to 3  &kp A   &lt 2 S    &lt 3 D  &kp F   &kp G   &kp LA(LC(KP_N0))  &kp LCTRL  &kp LALT          &kp LGUI      &kp RALT   &to 17     &kp H   &kp J   &kp K      &kp L      &kp RSHFT     &kp DQT
-&to 4  &kp Z   &kp X      &kp C    &kp V   &kp B                                 &kp TAB           &kp CAPSLOCK                        &kp N   &kp M   &kp COMMA  &kp DOT    &kp QUESTION  &kp SEMICOLON
-&to 5  &to 6   &to 7      &to 8    &to 9           &kp BSPC           &kp DEL    &kp LEFT_WIN      &kp ESCAPE    &kp ENTER  &kp SPACE          &to 10  &to 11     &to 12     &to 13        &to 14
+&to 1  &kp N1  &kp LS(T)  &kp N3   &kp N4   &kp N5  &to 18                                                                   &mo 15     &kp N6  &kp N7  &kp LS(O)  &kp LS(P)  &kp N0        &kp MINUS
+&to 2  &kp Q   &kp W      &kp E    &kp R    &kp T   &to 19                                                                   &to 16     &kp Y   &kp U   &kp I      &kp O      &kp P         &kp BSLH
+&to 3  &kp A   &lt 2 S    &lt 3 D  &lt 4 F  &kp G   &kp LA(LC(KP_N0))  &kp LCTRL  &kp LALT          &kp LGUI      &kp RALT   &to 17     &kp H   &kp J   &kp K      &kp L      &kp RSHFT     &kp DQT
+&to 4  &kp Z   &kp X      &kp C    &kp V    &kp B                                 &kp TAB           &kp CAPSLOCK                        &kp N   &kp M   &kp COMMA  &kp DOT    &kp QUESTION  &kp SEMICOLON
+&to 5  &to 6   &to 7      &to 8    &to 9            &kp BSPC           &kp DEL    &kp LEFT_WIN      &kp ESCAPE    &kp ENTER  &kp SPACE          &to 10  &to 11     &to 12     &to 13        &to 14
             >;
         };
 
@@ -56,11 +56,11 @@
 
         layer2_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                     &to 0   &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK   &trans     &kp UNDERSCORE
-&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                     &to 0   &kp END   &kp BACKSPACE    &kp UP          &kp DEL           &kp PG_UP  &kp PIPE
-&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans     &trans      &trans  &trans  &to 0   &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
-&trans  &none      &none            &none      &kp RALT   &none                                      &trans      &trans                  &trans    &trans           &kp LESS_THAN   &kp GREATER_THAN  &kp SLASH  &kp COLON
-&trans  &trans     &trans           &none      &none                   &none              &kp ENTER  &trans      &trans  &trans  &trans            &trans           &trans          &trans            &trans     &trans
+&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                   &to 0   &trans    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK   &trans     &kp UNDERSCORE
+&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                   &to 0   &kp END   &kp BACKSPACE    &kp UP          &kp DEL           &kp PG_UP  &kp PIPE
+&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans      &trans  &trans  &to 0   &kp HOME  &kp LEFT         &kp DOWN        &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
+&trans  &none      &none            &none      &kp RALT   &none                                    &trans      &trans                  &trans    &trans           &kp LESS_THAN   &kp GREATER_THAN  &kp SLASH  &kp COLON
+&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &trans      &trans  &trans  &trans            &trans           &trans          &trans            &trans     &trans
             >;
         };
 
@@ -76,11 +76,11 @@
 
         layer4_symbols2 {
             bindings = <
-&kp TILDE  &none   &none   &none   &none   &none   &to 0                                                     &to 0          &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans     &none   &none   &none   &none   &none   &to 0                                                     &to 0          &trans  &none   &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans     &none   &none   &none   &none   &trans  &kp LA(LC(KP_N4))  &trans  &trans      &trans  &trans     &to 0          &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&to 0      &trans  &trans  &trans  &trans  &trans                             &trans      &trans                            &none   &none   &trans  &trans                &trans                 &trans
-&trans     &trans  &trans  &trans  &trans          &trans             &trans  &trans      &trans  &kp LANG1  &kp RIGHT_ALT          &trans  &trans  &trans                &trans                 &trans
+&kp TILDE  &none   &none   &none   &none   &none   &to 0                                                     &to 0          &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)         &kp LS(N9)            &kp LS(N0)             &kp LS(MINUS)
+&trans     &none   &none   &none   &none   &none   &to 0                                                     &to 0          &kp LS(Y)         &kp LS(U)         &kp LS(I)          &kp LS(O)             &kp LS(P)              &kp LS(NON_US_BACKSLASH)
+&trans     &none   &none   &none   &none   &trans  &kp LA(LC(KP_N4))  &trans  &trans      &trans  &trans     &to 0          &kp LS(H)         &kp LS(J)         &kp LS(K)          &kp LS(L)             &kp LS(SEMICOLON)      &kp LS(SQT)
+&to 0      &trans  &trans  &trans  &trans  &trans                             &trans      &trans                            &kp LS(N)         &kp LS(M)         &kp LS(COMMA)      &kp LS(PERIOD)        &kp LS(SLASH)          &trans
+&trans     &trans  &trans  &trans  &trans          &trans             &trans  &trans      &trans  &kp LANG1  &kp RIGHT_ALT                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &trans
             >;
         };
 
