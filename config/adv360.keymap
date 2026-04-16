@@ -156,11 +156,11 @@
 
         volume {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans                                 &trans      &trans                  &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans                &trans                 &trans  &trans      &trans  &trans  &trans          &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &to 0   &trans  &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans        &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans        &trans  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans        &trans                                 &trans      &trans                  &trans  &trans           &trans             &trans  &trans  &trans
+&trans     &trans        &trans        &trans        &trans                &trans                 &trans  &trans      &trans  &trans  &trans          &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &to 0   &trans  &trans
             >;
         };
 
