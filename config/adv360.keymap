@@ -56,11 +56,11 @@
 
         layer2_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                   &to 0   &trans    &kp N7         &kp N8         &kp N9            &trans     &kp UNDERSCORE
-&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                   &to 0   &kp END   &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
-&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans      &trans  &trans  &to 0   &kp HOME  &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
-&trans  &none      &none            &none      &kp RALT   &none                                    &trans      &trans                  &trans    &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
-&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &trans      &trans  &trans  &trans            &trans         &trans         &trans            &trans     &trans
+&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                   &to 0   &kp NUMBER_6  &kp N7         &kp N8         &kp N9            &kp N0     &kp UNDERSCORE
+&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                   &to 0   &kp END       &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
+&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans      &trans  &trans  &to 0   &kp HOME      &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
+&trans  &none      &none            &none      &kp RALT   &none                                    &trans      &trans                  &trans        &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
+&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &trans      &trans  &trans  &trans                &trans         &trans         &trans            &trans     &trans
             >;
         };
 
@@ -156,11 +156,11 @@
 
         volume {
             bindings = <
-&trans  &trans  &kp NUMBER_2  &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans  &trans                                 &trans      &trans                  &trans  &trans           &trans             &trans  &trans  &trans
-&trans  &trans  &trans        &trans  &trans          &trans                 &trans  &trans      &trans  &trans  &trans          &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &to 0   &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans  &to 0                                                      &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans                                 &trans      &trans                  &trans  &trans           &trans             &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans                &trans                 &trans  &trans      &trans  &trans  &trans          &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &to 0   &trans  &trans
             >;
         };
 
