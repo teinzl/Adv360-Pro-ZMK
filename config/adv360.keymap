@@ -74,13 +74,13 @@
             >;
         };
 
-        layer4_symbols2 {
+        layer4_leftshift {
             bindings = <
-&kp TILDE  &none   &none   &none   &none   &none   &to 0                                                     &to 0          &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)         &kp LS(N9)            &kp LS(N0)             &kp LS(MINUS)
-&trans     &none   &none   &none   &none   &none   &to 0                                                     &to 0          &kp LS(Y)         &kp LS(U)         &kp LS(I)          &kp LS(O)             &kp LS(P)              &kp LS(NON_US_BACKSLASH)
-&trans     &none   &none   &none   &none   &trans  &kp LA(LC(KP_N4))  &trans  &trans      &trans  &trans     &to 0          &kp LS(H)         &kp LS(J)         &kp LS(K)          &kp LS(L)             &kp LS(SEMICOLON)      &kp LS(SQT)
-&to 0      &trans  &trans  &trans  &trans  &trans                             &trans      &trans                            &kp LS(N)         &kp LS(M)         &kp LS(COMMA)      &kp LS(PERIOD)        &kp LS(SLASH)          &trans
-&trans     &trans  &trans  &trans  &trans          &trans             &trans  &trans      &trans  &kp LANG1  &kp RIGHT_ALT                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &trans
+&kp TILDE  &none   &none   &none          &none   &none   &to 0                                                     &to 0          &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)         &kp LS(N9)            &kp LS(N0)             &kp LS(MINUS)
+&trans     &none   &none   &none          &none   &none   &to 0                                                     &to 0          &kp LS(Y)         &kp LS(U)         &kp LS(I)          &kp LS(O)             &kp LS(P)              &kp LS(NON_US_BACKSLASH)
+&trans     &none   &none   &kp BACKSPACE  &none   &trans  &kp LA(LC(KP_N4))  &trans  &trans      &trans  &trans     &to 0          &kp LS(H)         &kp LS(J)         &kp LS(K)          &kp LS(L)             &kp LS(SEMICOLON)      &kp LS(SQT)
+&to 0      &trans  &trans  &trans         &trans  &trans                             &trans      &trans                            &kp LS(N)         &kp LS(M)         &kp LS(COMMA)      &kp LS(PERIOD)        &kp LS(SLASH)          &trans
+&trans     &trans  &trans  &trans         &trans          &trans             &trans  &trans      &trans  &kp LANG1  &kp RIGHT_ALT                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &trans
             >;
         };
 
@@ -146,11 +146,11 @@
 
         layer_11 {
             bindings = <
-&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp LS(Q)         &kp LS(W)         &kp LS(E)         &kp LS(R)         &kp LS(T)   &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp LS(A)         &kp LS(S)         &kp LS(D)         &kp LS(F)         &kp LS(G)   &kp LS(LA(LC(KP_N1)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp LS(Z)         &kp LS(X)         &kp LS(C)         &kp LS(V)         &kp LS(B)                                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans            &trans            &trans            &trans                        &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &to 0   &trans  &trans  &trans
+&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &to 0                                                      &to 0   &trans  &trans  &trans     &trans  &trans  &trans
+&trans         &kp LS(Q)         &kp LS(W)         &kp LS(E)         &kp LS(R)         &kp LS(T)   &to 0                                                      &to 0   &trans  &trans  &trans     &trans  &trans  &trans
+&trans         &kp LS(A)         &kp LS(S)         &kp LS(D)         &kp LS(F)         &kp LS(G)   &kp LS(LA(LC(KP_N1)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &kp ENTER  &trans  &trans  &trans
+&trans         &kp LS(Z)         &kp LS(X)         &kp LS(C)         &kp LS(V)         &kp LS(B)                                  &trans      &trans                  &trans  &trans  &trans     &trans  &trans  &trans
+&trans         &trans            &trans            &trans            &trans                        &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &to 0      &trans  &trans  &trans
             >;
         };
 
