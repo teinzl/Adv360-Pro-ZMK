@@ -134,13 +134,13 @@
             >;
         };
 
-        layer_10_arrow+languagekey {
+        layer_10_arrow {
             bindings = <
-&trans    &trans     &kp HOME        &kp END         &kp INS           &kp DEL            &to 0                                                         &to 0   &trans              &trans            &trans            &trans        &trans  &trans
-&trans    &kp LSHFT  &trans          &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &to 0                                                         &to 0   &trans              &trans            &trans            &trans        &trans  &trans
-&trans    &kp LCTRL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp SQT            &kp LS(LA(LC(KP_N0)))  &kp LCTRL  &trans      &trans  &trans  &to 0   &kp LANG_HANJA      &kp LANGUAGE_4    &kp LANG_HANGEUL  &kp LEFT_ALT  &trans  &trans
-&trans    &kp LCTRL  &trans          &trans          &trans            &trans                                               &trans      &trans                  &kp LC(LEFT_SHIFT)  &kp LS(CAPSLOCK)  &kp LA(CAPSLOCK)  &trans        &trans  &trans
-&kp LALT  &to 10     &to 7           &to 8           &to 9                                &kp SPACE              &trans     &trans      &trans  &trans  &trans                      &to 0             &trans            &trans        &trans  &trans
+&trans    &trans     &kp HOME        &kp END         &kp INS           &kp DEL            &to 0                                                            &to 0      &trans  &trans  &trans  &trans          &kp BACKSPACE   &kp HOME
+&trans    &kp LSHFT  &trans          &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &to 0                                                            &to 0      &trans  &trans  &trans  &trans          &kp INSERT      &kp END
+&trans    &kp LCTRL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp SQT            &kp LS(LA(LC(KP_N0)))  &kp LCTRL  &trans      &trans  &trans     &to 0      &trans  &trans  &trans  &trans          &trans          &kp PG_UP
+&trans    &kp LCTRL  &trans          &trans          &trans            &trans                                               &trans      &trans                        &trans  &trans  &trans  &trans          &kp UP_ARROW    &kp PG_DN
+&kp LALT  &to 10     &to 7           &to 8           &to 9                                &kp SPACE              &trans     &trans      &trans  &kp ENTER  &kp SPACE          &to 0   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
