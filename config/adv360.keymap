@@ -158,7 +158,7 @@
             bindings = <
 &kp GRAVE  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &to 0                                                      &to 0   &kp F21  &kp F22          &kp F23            &kp F24  &trans  &trans
 &trans     &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &to 0                                                      &to 0   &trans   &trans           &trans             &trans   &trans  &trans
-&trans     &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans   &trans           &trans             &trans   &trans  &trans
+&trans     &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp LS(LA(LC(KP_N2)))  &trans  &trans      &trans  &trans  &to 0   &trans   &kp BACKSPACE    &trans             &trans   &trans  &trans
 &trans     &kp F16  &kp F17  &kp F18  &kp F19  &kp F20                                 &trans      &trans                  &trans   &trans           &trans             &trans   &trans  &trans
 &trans     &trans   &trans   &trans   &trans            &trans                 &trans  &trans      &trans  &trans  &trans           &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &to 0    &trans  &trans
             >;
@@ -166,11 +166,11 @@
 
         layer_13_scrl {
             bindings = <
-&trans  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMLOCK   &kp CAPSLOCK       &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans           &kp LG(TAB)      &kp LA(F14)      &kp K_VOLUME_UP    &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans           &kp LC(TAB)      &kp LC(LS(F24))  &kp K_VOLUME_DOWN  &kp LS(LA(LC(KP_N3)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans           &trans           &trans           &kp K_MUTE                                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans           &trans           &trans                              &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &to 0   &trans
+&trans  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMLOCK   &kp CAPSLOCK       &to 0                                                      &to 0   &trans  &trans  &trans         &trans  &trans  &trans
+&trans  &trans          &trans           &kp LG(TAB)      &kp LA(F14)      &kp K_VOLUME_UP    &to 0                                                      &to 0   &trans  &trans  &trans         &trans  &trans  &trans
+&trans  &trans          &trans           &kp LC(TAB)      &kp LC(LS(F24))  &kp K_VOLUME_DOWN  &kp LS(LA(LC(KP_N3)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &kp BACKSPACE  &trans  &trans  &trans
+&trans  &trans          &trans           &trans           &trans           &kp K_MUTE                                        &trans      &trans                  &trans  &trans  &trans         &trans  &trans  &trans
+&trans  &trans          &trans           &trans           &trans                              &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &trans         &trans  &to 0   &trans
             >;
         };
 
