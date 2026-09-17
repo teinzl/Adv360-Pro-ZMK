@@ -63,11 +63,11 @@
 
         layer2_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                          &to 0   &kp NUMBER_6  &kp N7         &kp N8         &kp N9            &kp N0     &kp UNDERSCORE
-&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                          &to 0   &kp END       &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
-&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans             &trans  &trans  &to 0   &kp HOME      &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
-&trans  &none      &none            &none      &kp RALT   &none                                    &trans             &trans                  &trans        &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
-&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &kp LA(LSHFT)      &trans  &trans  &trans                &trans         &trans         &trans            &trans     &trans
+&trans  &kp GRAVE  &trans           &trans        &trans     &trans       &to 0                                                     &to 0   &kp NUMBER_6  &kp N7         &kp N8         &kp N9            &kp N0     &kp UNDERSCORE
+&to 0   &trans     &kp LS(LC(TAB))  &kp TAB       &kp BSPC   &kp LG(TAB)  &to 0                                                     &to 0   &kp END       &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
+&to 0   &trans     &trans           &kp LCTRL     &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans        &trans  &trans  &to 0   &kp HOME      &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
+&trans  &none      &none            &kp LEFT_ALT  &kp RALT   &none                                    &trans        &trans                  &trans        &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
+&trans  &trans     &trans           &none         &kp LSHFT               &kp BACKSPACE      &kp DEL  &kp CAPS      &trans  &trans  &trans                &trans         &trans         &trans            &trans     &trans
             >;
         };
 
