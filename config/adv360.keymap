@@ -29,6 +29,13 @@
             bindings = <&kp PERIOD &kp PERIOD &kp PERIOD>;
             label = "NEW_MACRO";
         };
+
+        alt_shfit: alt_shfit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            label = "ALT_SHFIT";
+        };
     };
 
     keymap {
@@ -56,21 +63,21 @@
 
         layer2_arrows {
             bindings = <
-&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                   &to 0   &kp NUMBER_6  &kp N7         &kp N8         &kp N9            &kp N0     &kp UNDERSCORE
-&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                   &to 0   &kp END       &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
-&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans      &trans  &trans  &to 0   &kp HOME      &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
-&trans  &none      &none            &none      &kp RALT   &none                                    &trans      &trans                  &trans        &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
-&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &trans      &trans  &trans  &trans                &trans         &trans         &trans            &trans     &trans
+&trans  &kp GRAVE  &trans           &trans     &trans     &trans       &to 0                                                          &to 0   &kp NUMBER_6  &kp N7         &kp N8         &kp N9            &kp N0     &kp UNDERSCORE
+&to 0   &trans     &kp LS(LC(TAB))  &kp TAB    &kp BSPC   &kp LG(TAB)  &to 0                                                          &to 0   &kp END       &kp BACKSPACE  &kp UP         &kp DEL           &kp PG_UP  &kp PIPE
+&to 0   &trans     &trans           &kp LCTRL  &kp LSHFT  &kp LA(TAB)  &kp LA(LC(KP_N2))  &trans   &trans             &trans  &trans  &to 0   &kp HOME      &kp LEFT       &kp DOWN       &kp RIGHT         &kp PG_DN  &kp SINGLE_QUOTE
+&trans  &none      &none            &none      &kp RALT   &none                                    &trans             &trans                  &trans        &trans         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp COLON
+&trans  &trans     &trans           &none      &none                   &kp BACKSPACE      &kp DEL  &kp LA(LSHFT)      &trans  &trans  &trans                &trans         &trans         &trans            &trans     &trans
             >;
         };
 
         layer3_symbols_left {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &to 0                                                  &to 0   &trans         &trans                &trans                 &kp UNDERSCORE  &kp PLUS   &kp GRAVE
-&to 0   &none   &none   &none   &trans          &trans  &to 0                                                  &to 0   &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(O)       &kp LS(P)  &kp BSLH
-&to 0   &none   &none   &trans  &kp LEFT_SHIFT  &trans  &kp LA(LC(KP_N3))  &trans  &trans      &trans  &trans  &to 0   &kp SEMICOLON  &kp QUESTION          &kp EXCL               &kp SQT         &kp DQT    &kp SINGLE_QUOTE
-&trans  &none   &trans  &trans  &none           &trans                             &trans      &trans                  &kp EXCL       &kp MINUS             &kp TILDE              &dots           &kp SLASH  &kp COLON
-&trans  &trans  &trans  &trans  &to 0                   &trans             &trans  &trans      &trans  &trans  &trans                 &trans                &trans                 &trans          &trans     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &to 0                                                            &to 0   &kp CARET      &kp AMPERSAND         &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&to 0   &none   &none   &none   &trans          &trans  &to 0                                                            &to 0   &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(O)             &kp LS(P)              &kp PLUS
+&to 0   &none   &none   &trans  &kp LEFT_SHIFT  &trans  &kp LA(LC(KP_N3))  &trans  &trans                &trans  &trans  &to 0   &kp SEMICOLON  &kp QUESTION          &kp EXCL               &kp SQT               &kp DQT                &kp NON_US_BACKSLASH
+&trans  &none   &trans  &trans  &none           &trans                             &kp LA(CLCK)          &trans                  &kp EXCL       &kp MINUS             &kp TILDE              &dots                 &kp SLASH              &kp COLON
+&trans  &trans  &trans  &trans  &to 0                   &trans             &trans  &kp LC(CAPSLOCK)      &trans  &trans  &trans                 &trans                &trans                 &trans                &trans                 &trans
             >;
         };
 
@@ -166,11 +173,11 @@
 
         layer_13_scrl {
             bindings = <
-&trans  &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMLOCK   &kp CAPSLOCK       &to 0                                                      &to 0   &trans  &trans  &trans         &trans  &trans  &trans
-&trans  &trans          &trans           &kp LG(TAB)      &kp LA(F14)      &kp K_VOLUME_UP    &to 0                                                      &to 0   &trans  &trans  &trans         &trans  &trans  &trans
-&trans  &trans          &trans           &kp LC(TAB)      &kp LC(LS(F24))  &kp K_VOLUME_DOWN  &kp LS(LA(LC(KP_N3)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &kp BACKSPACE  &trans  &trans  &trans
-&trans  &trans          &trans           &trans           &trans           &kp K_MUTE                                        &trans      &trans                  &trans  &trans  &trans         &trans  &trans  &trans
-&trans  &trans          &trans           &trans           &trans                              &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &trans         &trans  &to 0   &trans
+&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp N5             &to 0                                                      &to 0   &kp SCROLLLOCK  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMLOCK  &kp CLCK  &trans
+&trans     &trans        &trans        &kp LG(TAB)   &kp LA(F14)      &kp K_VOLUME_UP    &to 0                                                      &to 0   &trans          &trans           &trans           &trans          &trans    &trans
+&trans     &trans        &trans        &kp LC(TAB)   &kp LC(LS(F24))  &kp K_VOLUME_DOWN  &kp LS(LA(LC(KP_N3)))  &trans  &trans      &trans  &trans  &to 0   &trans          &trans           &kp BACKSPACE    &trans          &trans    &trans
+&trans     &trans        &trans        &trans        &trans           &kp K_MUTE                                        &trans      &trans                  &trans          &trans           &trans           &trans          &trans    &trans
+&trans     &trans        &trans        &trans        &trans                              &trans                 &trans  &trans      &trans  &trans  &trans                  &trans           &trans           &trans          &to 0     &trans
             >;
         };
 
@@ -221,16 +228,6 @@
 &kp ESC    &none  &none  &none  &none  &none  &kp LS(LA(LC(KP_N8)))  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &to 0      &none  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
 &none      &none  &none  &none  &none  &none                                    &kp HOME      &kp PG_UP                        &none  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
 &to 0      &to 0  &to 0  &to 0  &to 0         &kp BSPC               &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0         &kp UP      &kp DOWN      &kp KP_DOT     &none            &to 0
-            >;
-        };
-
-        browse_ {
-            bindings = <
-&kp ESCAPE   &kp LC(TAB)    &kp LC(LS(TAB))  &trans     &trans           &kp F6     &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(TAB)  &none          &trans           &kp PG_UP  &trans           &kp LC(T)  &to 0                                                      &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans         &kp LEFT_ARROW   &kp PG_DN  &kp RIGHT_ARROW  &trans     &kp LS(LA(LC(KP_N9)))  &trans  &trans      &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &kp LC(LS(T))  &kp LC(W)        &kp SPACE  &trans           &trans                                    &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans         &to 0            &trans     &trans                      &trans                 &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
